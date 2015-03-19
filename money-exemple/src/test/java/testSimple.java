@@ -6,6 +6,6 @@ public class testSimple{
 	@Test
 	public void testSimple(){
 
-		org.junit.Assert.assertTrue(true); 
+		org.junit.Assert.assertTrue(true);
 	}
 }
