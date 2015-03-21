@@ -1,6 +1,6 @@
 # tdd-by-exemple
 
-My exercises folowing teh Kent Beck 's book.
+My exercises folowing the Kent Beck 's book.
 
 step by step branches
 
@@ -27,3 +27,9 @@ Remember TDD algorithm
 ###Equality for All
 
 ###brnach name :money-step3
+
+###brnach name :money-step3-refactor
+Adding jacoco code coverage
+
+
+
