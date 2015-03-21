@@ -36,16 +36,24 @@ Keys:
 
 We are returning a new Dollar object.
 
-###branch name :money-step3
+####branch name :money-step3
 
-###branch name :money-step3-refactor
+####branch name :money-step3-refactor
 Adding jacoco code coverage
 
 ###Privacy
 Making attributes private ... and adding checkstyle.
+####branch name :money-step4
 
 ### Franc-ly Speaking
 
+####branch name :money-step5
+
+### Equality for All, Redux
+
+####branch name :money-step6
+
+### Apples and Oranges
 
 
 
