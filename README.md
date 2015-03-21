@@ -27,7 +27,11 @@ Remember TDD algorithm
 ###Equality for All
 Keys:
 * One of the constraints on Value Objects is that the values of the instance variables of the object never change once they have been set in the constructor. ( Discuss this on Evans DDD book "Special Cases: When to Allow Mutability" ).
-
+'''
+    public Dollar times(int multiplier){
+      return new Dollar(amount * multiplier);
+    }
+'''
 ###brnach name :money-step3
 
 ###brnach name :money-step3-refactor
