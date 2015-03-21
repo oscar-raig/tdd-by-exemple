@@ -26,7 +26,7 @@ Remember TDD algorithm
 
 ###Equality for All
 Keys:
-* One of the constraints on Value Objects is that the values of the instance variables of the object never change once they have been set in the constructor.
+* One of the constraints on Value Objects is that the values of the instance variables of the object never change once they have been set in the constructor. ( Discuss this on Evans DDD book "Special Cases: When to Allow Mutability" ).
 
 ###brnach name :money-step3
 
