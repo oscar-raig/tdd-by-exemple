@@ -20,4 +20,10 @@ public class testMultiplication {
     product = five.times(3);
     Assert.assertEquals(15, product.amount);
   }
+
+  @Test
+  public void testEquality() {
+    Assert.assertTrue(new Dollar(5).equals(new Dollar(5)));
+//    Assert.assertFalse(new Dollar(5).equals(new Dollar(6)));
+  }
 }
