@@ -36,10 +36,16 @@ Keys:
 
 We are returning a new Dollar object.
 
-###brnach name :money-step3
+###branch name :money-step3
 
-###brnach name :money-step3-refactor
+###branch name :money-step3-refactor
 Adding jacoco code coverage
+
+###Privacy
+Making attributes private ... and adding checkstyle.
+
+### Franc-ly Speaking
+
 
 
 
