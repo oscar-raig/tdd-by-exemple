@@ -1,6 +1,7 @@
 apply plugin:"java"
 apply plugin:"application"
 apply plugin:"idea"
+apply plugin : "jacoco"
 
 // application
 mainClassName="org.raig.Main"
@@ -13,3 +14,37 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+// jacaco
+
+jacoco {
+    toolVersion = "0.7.1.201405082137"
+    reportsDir = file("$buildDir/customJacocoReportDir")
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination "${buildDir}/jacocoHtml"
+    }
+}
+
+test {
+    jacoco {
+        append = false
+        destinationFile = file("$buildDir/jacoco/jacocoTest.exec")
+        classDumpFile = file("$buildDir/jacoco/classpathdumps")
+    }
+}
+
+
+jacoco {
+    applyTo run
+}
+
+task applicationCodeCoverageReport(type:JacocoReport){
+    executionData run
+    sourceSets sourceSets.main
+}
+
