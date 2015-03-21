@@ -4,10 +4,16 @@
 public class Dollar {
 
     int amount = 10;
+    private int numberDollars;
     public Dollar(int NumberDollars){
+      numberDollars = NumberDollars;
     }
 
-    public void times(int NumberOfTimes){
+    public Dollar times(int NumberOfTimes){
 
+        Dollar newDollar = new Dollar(this.numberDollars);
+        newDollar.amount = NumberOfTimes * this.numberDollars;
+        return newDollar;
     }
+
 }
