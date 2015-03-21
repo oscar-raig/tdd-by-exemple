@@ -1,21 +1,22 @@
 /**
  * Created by oscarraigcolon on 19/3/15.
  */
-public class Dollar {
+public class Dollar  extends Money{
 
-  private int amount = 10;
+  //private int amount;
 
   public Dollar(int amount) {
-    this.amount = amount;
+   super(amount);
   }
 
   public Dollar times(int multiplier) {
-
     return new Dollar(amount * multiplier);
   }
 
   public boolean equals(Object object) {
-    Dollar dollar = (Dollar) object;
+    Money dollar = (Dollar) object;
     return amount == dollar.amount;
   }
+
+
 }
