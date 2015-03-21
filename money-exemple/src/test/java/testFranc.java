@@ -1,9 +1,10 @@
+import org.junit.Assert;
 import org.junit.Test;
-import org.junit.*;
+
 /**
  * Created by oscarraigcolon on 21/3/15.
  */
-public class testFranc {
+public class TestFranc {
   @Test
   public void testFrancMultiplication() {
 

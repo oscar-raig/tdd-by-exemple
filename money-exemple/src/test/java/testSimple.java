@@ -1,11 +1,10 @@
-import org.junit.*;
+import org.junit.Assert;
+import org.junit.Test;
 
-public class testSimple{
+public class TestSimple {
 
-
-	@Test
-	public void testSimple(){
-
-		org.junit.Assert.assertTrue(true);
-	}
+  @Test
+  public void testSimple() {
+    Assert.assertTrue(true);
+  }
 }
