@@ -23,3 +23,7 @@ Remember TDD algorithm
 ###Degenerate Objects
 
 ####branch name: money-step2
+
+###Equality for All
+
+###brnach name :money-step3
