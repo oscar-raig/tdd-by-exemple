@@ -25,6 +25,8 @@ Remember TDD algorithm
 ####branch name: money-step2
 
 ###Equality for All
+Keys:
+* One of the constraints on Value Objects is that the values of the instance variables of the object never change once they have been set in the constructor.
 
 ###brnach name :money-step3
 
