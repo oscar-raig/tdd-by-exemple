@@ -1,2 +1,8 @@
 build/
 *.class
+.gradle/
+money-exemple.iml
+money-exemple.ipr
+money-exemple.iws
+
+
