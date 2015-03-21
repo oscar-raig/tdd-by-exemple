@@ -45,16 +45,17 @@ Adding jacoco code coverage
 Making attributes private ... and adding checkstyle.
 ####branch name :money-step4
 
-### Franc-ly Speaking
+###Franc-ly Speaking
 
 ####branch name :money-step5
 
-### Equality for All, Redux
+###Equality for All, Redux
 
 ####branch name :money-step6
 
-### Apples and Oranges
+###Apples and Oranges
 
-### Makin’ Objects
+###Makin’ Objects
 
+###Times We’re Livin’ In
 
