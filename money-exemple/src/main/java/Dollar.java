@@ -3,19 +3,19 @@
  */
 public class Dollar {
 
-    int amount = 10;
-    public Dollar(int amount){
-      this.amount= amount;
-    }
+  private int amount = 10;
 
-    public Dollar times(int multiplier){
+  public Dollar(int amount) {
+    this.amount = amount;
+  }
 
-      return new Dollar(amount * multiplier);
-    }
+  public Dollar times(int multiplier) {
 
-    public boolean equals(Object object) {
-      Dollar dollar= (Dollar) object;
-      return amount == dollar.amount;
-    }
+    return new Dollar(amount * multiplier);
+  }
 
+  public boolean equals(Object object) {
+    Dollar dollar = (Dollar) object;
+    return amount == dollar.amount;
+  }
 }
