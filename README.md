@@ -16,10 +16,10 @@ Remember TDD algorithm
 
 ###Money Example
 
-####money-step1
+####branch name: money-step1
 
-####money-step1-refactor
+####branch name: money-step1-refactor
 
 ###Degenerate Objects
 
-####money-step2
+####branch name: money-step2
