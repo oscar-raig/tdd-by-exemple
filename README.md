@@ -70,12 +70,12 @@ Making attributes private ... and adding checkstyle.
 ####branch name:money-step8
 
 ###Change
-####branch name:money-step9
+####branch name:money-step9: TODO
 
 ###Mixed Currencies
-####branch name:money-step10
+####branch name:money-step10: TODO
 
 ###Abstraction, Finally
-####branch name:money-step11
+####branch name:money-step11: TODO
 
 
