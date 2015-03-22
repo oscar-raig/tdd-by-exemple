@@ -71,3 +71,11 @@ Making attributes private ... and adding checkstyle.
 
 ###Change
 ####branch name:money-step9
+
+###Mixed Currencies
+####branch name:money-step10
+
+###Abstraction, Finally
+####branch name:money-step11
+
+
