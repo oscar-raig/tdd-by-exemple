@@ -1,9 +1,7 @@
-import java.beans.*;
-
 /**
  * Created by oscarraigcolon on 21/3/15.
  */
-class Money implements Expression{
+public class Money implements Expression{
   protected final int amount;
   protected String currency;
 
