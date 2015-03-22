@@ -66,4 +66,8 @@ Making attributes private ... and adding checkstyle.
 ####branch name:money-step7
 
 ### Addition, Finally
+### Make It
 ####branch name:money-step8
+
+###Change
+####branch name:money-step9
