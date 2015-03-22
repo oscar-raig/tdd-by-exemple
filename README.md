@@ -3,6 +3,8 @@
 My exercises folowing the Kent Beck 's book.
 
 step by step branches
+We will begin creating a concrete class Dollar, after another class Franc, we will create a parent Money, and 
+we will remove the original classes.
 
 Remember TDD algorithm
 
@@ -62,3 +64,6 @@ Making attributes private ... and adding checkstyle.
 
 ###The Root of all Evil
 ####branch name:money-step7
+
+### Addition, Finally
+####branch name:money-step8
