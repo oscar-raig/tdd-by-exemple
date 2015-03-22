@@ -1,7 +1,9 @@
+import java.beans.*;
+
 /**
  * Created by oscarraigcolon on 21/3/15.
  */
-class Money {
+class Money implements Expression{
   protected final int amount;
   protected String currency;
 
@@ -35,4 +37,14 @@ class Money {
   public String toString() {
     return amount + " " + currency;
   }
+
+  public Expression plus(Money addend) {
+    // return Money.dollar(amount + addMoneyToAdd.amount);
+    return new Sum(this, addend);
+  }
+
+  public Money reduce(String to) {
+    return this;
+  }
+
 }
